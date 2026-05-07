@@ -2,10 +2,11 @@
 
 <div align="center">
 
-**抖音文案提取** - Claude Code / Codex AI Agent 技能
+**抖音文案提取** - OpenClaw AI Agent 技能
 
 提取抖音视频的文案/字幕
 
+[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://openclaw.ai)
 [![npm version](https://img.shields.io/npm/v/dytext-cli.svg)](https://www.npmjs.com/package/dytext-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -26,9 +27,12 @@
 ### 1. 安装技能
 
 ```bash
-# 从 GitHub 安装
-cd ~/.claude/skills
-git clone https://github.com/xwchris/dytext-skill.git dytext
+# 方法 1：从 GitHub 安装
+cd ~/.openclaw/workspace
+git clone https://github.com/xwchris/dytext-skill.git skills/dytext
+
+# 方法 2：通过 ClawHub 安装
+clawhub install dytext
 ```
 
 ### 2. 配置（自动引导）
@@ -39,11 +43,11 @@ git clone https://github.com/xwchris/dytext-skill.git dytext
 npx dytext-cli setup
 ```
 
-API Key 自动保存到 `~/.dycaption`，无需手动配置。
+注册即获免费积分，API Key 自动保存到 `~/.dycaption`，无需手动配置。
 
 ## 使用示例
 
-### 在 Claude Code 中使用
+### 在 OpenClaw 中使用
 
 | 你说 | AI 会做的 |
 |------|-----------|
@@ -70,7 +74,7 @@ npx dytext-cli history 20
 ## 架构
 
 ```
-Claude Code/Cursor Agent
+OpenClaw Agent
     ↓  读取 SKILL.md，识别意图
 npx dytext-cli（npm 包，Node.js）
     ↓
