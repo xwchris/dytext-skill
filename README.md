@@ -29,7 +29,7 @@
 ```bash
 # 方法 1：从 GitHub 安装
 cd ~/.openclaw/workspace
-git clone https://github.com/xwchris/douyin-to-text.git skills/dytext
+git clone https://github.com/xwchris/douyin-to-text.git skills/douyin-to-text
 
 # 方法 2：通过 ClawHub 安装
 clawhub install douyin-to-text
