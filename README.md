@@ -1,8 +1,8 @@
-# dytext-skill
+# douyin-to-text
 
 <div align="center">
 
-**抖音文案提取** - OpenClaw AI Agent 技能
+**抖音文案提取** - OpenClaw / ClawHub AI Agent 技能
 
 提取抖音视频的文案/字幕
 
@@ -29,10 +29,10 @@
 ```bash
 # 方法 1：从 GitHub 安装
 cd ~/.openclaw/workspace
-git clone https://github.com/xwchris/dytext-skill.git skills/dytext
+git clone https://github.com/xwchris/douyin-to-text.git skills/dytext
 
 # 方法 2：通过 ClawHub 安装
-clawhub install dytext
+clawhub install douyin-to-text
 ```
 
 ### 2. 配置（自动引导）
@@ -52,7 +52,7 @@ npx dytext-cli setup
 | 你说 | AI 会做的 |
 |------|-----------|
 | "帮我提取这个抖音视频的文案 https://v.douyin.com/xxxxx/" | 自动调用转写并返回文案 |
-| "查询我的 dytext 余额" | 显示剩余积分 |
+| "查询我的 douyin-to-text 余额" | 显示剩余积分 |
 | "看看我最近转写了哪些视频" | 显示历史记录 |
 
 ### 命令行直接使用
@@ -96,6 +96,7 @@ api.dytext.cn REST API
 ## 相关链接
 
 - 官网：[dytext.cn](https://dytext.cn)
+- ClawHub Skill：[douyin-to-text](https://github.com/xwchris/douyin-to-text)
 - CLI 工具：[github.com/xwchris/dytext](https://github.com/xwchris/dytext)
 - npm 包：[npmjs.com/package/dytext-cli](https://www.npmjs.com/package/dytext-cli)
 

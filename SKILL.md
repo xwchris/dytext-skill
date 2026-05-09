@@ -1,5 +1,5 @@
 ---
-name: dytext
+name: douyin-to-text
 version: 1.0.0
 description: 抖音文案提取。使用场景：(1) 用户要求提取抖音视频文案/字幕 (2) 用户发送抖音分享链接需要转文字 (3) 用户查询积分余额或转写历史。首次使用会自动引导注册。
 requires:
@@ -12,6 +12,8 @@ sendsDataTo:
 # 抖音文案提取
 
 通过 `npx dytext-cli` 提取抖音视频文案/字幕。首次使用自动引导注册，跨平台支持。
+
+ClawHub 安装名：`douyin-to-text`。
 
 > **注意**：本技能需要将您的 API Key 和抖音分享链接发送到 dytext.cn 服务。请确保您信任该服务后再使用。
 
@@ -62,5 +64,6 @@ npx dytext-cli history
 ## 相关链接
 
 - 官网：https://dytext.cn
+- ClawHub Skill：https://github.com/xwchris/douyin-to-text
 - CLI 工具：https://github.com/xwchris/dytext
 - npm 包：https://www.npmjs.com/package/dytext-cli
